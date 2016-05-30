@@ -62,7 +62,9 @@ var onClick = function() {
   $quoteBody.text(randomQuote.quote);
   $quoteSource.text(randomQuote.source);
 
-  var link = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent("\"" + randomQuote.quote + "\"") + '&via=blanca_mendi';
+  var link = 'https://twitter.com/intent/tweet?text=' +
+    encodeURIComponent("\"" + randomQuote.quote + "\" (" + randomQuote.source + ")") +
+    '&via=blanca_mendi';
   $quoteTweet.attr('href', link);
 };
 
