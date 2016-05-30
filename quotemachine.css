@@ -1,0 +1,23 @@
+body {
+  background-color: #000;
+  background-image: url(https://i.ytimg.com/vi/KONEMUhGlyQ/maxresdefault.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.vertical-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.jumbotron {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+.copyright {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0 10px #000;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Random Quote Machine | The Lord of the Rings</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="quotemachine.css">
+  </head>
+
+  <body class="container vertical-center">
+    <div class="row">
+      <div class="col-lg-6 col-lg-offset-3 jumbotron">
+        <blockquote>
+          <p id="quote-body">"Random quote here"</p>
+          <footer id="quote-source">Author</footer>
+        </blockquote>
+        <div class="text-center">
+          <button type="button" class="btn btn-primary btn-md" id="quote-refresh">
+            <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>
+            Get a random quote
+          </button>
+          <a href="#" class="btn btn-md btn-info" id="quote-tweet">
+            Share it on Twitter
+          </a>
+        </div>
+      </div>
+    </div>
+    <footer class="copyright">
+      <p>&copy; Blanca Mendizabal 2016</p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="quotemachine.js"></script>
+  </body>
+</html>
